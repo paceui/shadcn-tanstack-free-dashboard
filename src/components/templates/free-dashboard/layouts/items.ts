@@ -5,6 +5,7 @@ import {
   DatabaseIcon,
   FileTextIcon,
   GraduationCapIcon,
+  HospitalIcon,
   LayoutGridIcon,
   type LucideIcon,
   MailIcon,
@@ -17,7 +18,7 @@ import {
   TrendingUpIcon,
   UserCheckIcon,
   UsersIcon,
-} from "lucide-react";
+} from "lucide-react"
 
 export type MenuItem = {
   label: string;
@@ -46,6 +47,11 @@ export const demoAdminMenuItems: MenuItem[] = [
     label: "Log",
     icon: FileTextIcon,
     href: "/dashboards/logs",
+  },
+  {
+    label: "Hospital",
+    icon: HospitalIcon,
+    href: "/dashboards/hospital",
   },
   {
     label: "Customer",
